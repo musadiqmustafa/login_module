@@ -58,6 +58,7 @@ include "include/footer.php";
 document.getElementById('submit').addEventListener('click',function(){
     let id=document.getElementById('user_id').value;
     let password=document.getElementById('password').value;
+    
    
     login(id,password)
     
